@@ -14,6 +14,7 @@
 typedef struct coord_2d {
     double x;
     double y;
+    double area;
 } coord_2d_t;
 
 /* Return the distance between two 2D coordinates */
@@ -24,3 +25,10 @@ bool coord_2d_eq(const coord_2d_t* a, const coord_2d_t* b);
 
 /* Calculate the midpoint between two 2D coordinates and load into mid */
 void coord_2d_midpoint(coord_2d_t* mid, const coord_2d_t* a, const coord_2d_t* b);
+
+/*	
+	This function should take three 2D coordinates 
+	and return a double equal to the area of
+	the triangle formed by those coordinates
+*/
+double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c);
