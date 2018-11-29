@@ -1,0 +1,12 @@
+fatal error: 'check.h' file not found
+#include <check.h>
+
+$brew install check
+
+install pkg-config in mac....
+
+Running suite(s): coord_2d
+100%: Checks: 3, Failures: 0, Errors: 0
+geometry_test.c:52:P:coord_2d_eq:test_2d_eq:0: Passed
+geometry_test.c:89:P:coord_2d_dist:test_2d_dist:0: Passed
+geometry_test.c:143:P:coord_2d_midpoint:test_2d_midpoint:0: Passed
