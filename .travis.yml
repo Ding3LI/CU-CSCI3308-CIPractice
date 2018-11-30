@@ -1,7 +1,9 @@
-language: c
+os: osx
 
 before_install:
- - sudo apt-get update && sudo apt-get install -y check
+ - brew install check
+
+language: c
 
 compiler:
  - clang
@@ -9,7 +11,3 @@ compiler:
 script:
  - make
  - make test
-
-addons:
-	apt:
-		update: true
