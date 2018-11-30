@@ -14,7 +14,6 @@
 typedef struct coord_2d {
     double x;
     double y;
-    double area;
 } coord_2d_t;
 
 /* Return the distance between two 2D coordinates */
