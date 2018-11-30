@@ -1,0 +1,7 @@
+travis:
+
+	https://travis-ci.com/Ding3LI/CU-CSCI3308-CIPractice/builds/93085117
+
+github:
+
+	https://github.com/Ding3LI/CU-CSCI3308-CIPractice
